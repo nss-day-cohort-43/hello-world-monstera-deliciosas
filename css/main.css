@@ -1,0 +1,17 @@
+body {
+
+
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+
+.cards {
+    border: 5px solid black;
+    margin: 1em;
+    flex-basis: 33.33%;
+}
