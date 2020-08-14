@@ -1,7 +1,36 @@
 body {
-
+    
 
 }
+.countryImages {
+   max-width: 250px;
+   max-height: 150px;
+   border: 5px solid black;
+   
+   
+}
+
+
+#countryImages { 
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 1em;
+      
+}
+.imgLogo {
+    border: 2px solid black;
+}
+
+
+nav {
+    border-bottom: 2px solid black;
+}
+
+
+h1 {
+    border-top: 2px solid black;
+}
+
 
 section{
     display: flex;
@@ -10,8 +39,114 @@ section{
 }
 
 
-.cards {
-    border: 5px solid black;
+.cities {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/London.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
     margin: 1em;
-    flex-basis: 33.33%;
+    padding-left: .5em;
+    
+}
+.cities:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/London.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+    
+}
+.landmarks {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Buckingham.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    
+    
+}
+.landmarks:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/Buckingham.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+}
+.citizens {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Famous.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    
+    
+    
+}
+.citizens:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/Famous.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+    
+    
+    
+}
+
+
+h2 {
+    color: white;
+    font-size: 2em;
+    
+    
+}
+ul {
+    color: white;
+}
+li {
+    position: relative;
+    padding: 1.5em;
+    font-size: large;
+}
+
+#mainInformation {
+    width: auto;
+    height: auto;
+    background: url(/images/UK_FLAG.jpg);
+    background-size: fill;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    
+    
+   
 }
