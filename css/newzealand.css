@@ -1,3 +1,5 @@
+@import "main.css";
+
 .cities {
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/nz_auckland.jpg);
 }
