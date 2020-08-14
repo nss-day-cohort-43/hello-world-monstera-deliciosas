@@ -126,16 +126,6 @@ section{
     padding-left: .5em;
 }
  
-
-
-
-
-
-    
-    
-    
-    
-
 .citizens:hover {
     max-width: 100%;
     max-height: auto;
@@ -143,11 +133,7 @@ section{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items : center;
-    
-    
-    
-    
+    align-items : center;   
 }
 
 
@@ -175,6 +161,3 @@ li {
     display: flex;
     justify-content: space-around;
 } 
-    
-   
-

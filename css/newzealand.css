@@ -1,0 +1,28 @@
+.cities {
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/nz_auckland.jpg);
+}
+
+.cities:hover {
+    background: url(/images/nz_auckland.jpg);
+  
+}
+
+.landmarks {
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/nz_mtns.jpg);
+}
+
+.landmarks:hover {
+    background: url(/images/nz_mtns.jpg); 
+}
+
+.citizens {
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/nz_queen.jpg);
+}
+
+.citizens:hover {
+    background: url(/images/nz_queen.jpg);
+}
+
+#mainInformation {
+    background: url(/images/nz_flag.svg);
+} 
