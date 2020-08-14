@@ -34,7 +34,7 @@ h1 {
 
 section{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     
 }
 
