@@ -1,7 +1,30 @@
-body {
-    
-
+nav {
+    background-color: gray;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 2px solid black;
 }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+nav li {
+    display: inline-block; 
+    margin: 16px;
+        
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+
 .countryImages {
    max-width: 250px;
    max-height: 150px;
@@ -16,9 +39,6 @@ body {
    justify-content: space-evenly;
    padding-top: 1em;
       
-}
-.imgLogo {
-    border: 2px solid black;
 }
 
 
@@ -104,10 +124,18 @@ section{
     border: thick solid black;
     margin: 1em;
     padding-left: .5em;
-    
-    
-    
 }
+ 
+
+
+
+
+
+    
+    
+    
+    
+
 .citizens:hover {
     max-width: 100%;
     max-height: auto;
@@ -146,7 +174,7 @@ li {
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    
+} 
     
    
-}
+
