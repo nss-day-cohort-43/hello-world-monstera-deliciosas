@@ -1,5 +1,9 @@
+body {
+    font-family: 'Merienda', cursive;
+}
+
 nav {
-    background-color: gray;
+    background-color: cornflowerblue;
     display: flex;
     flex-wrap: nowrap;
     border: 2px solid black;
@@ -25,7 +29,7 @@ a:hover {
     color: red;
 }
 
-.countryImages {
+.jam-countryImages {
    max-width: 250px;
    max-height: 150px;
    border: 5px solid black;
@@ -34,7 +38,7 @@ a:hover {
 }
 
 
-#countryImages { 
+#jam-countryImages { 
    display: flex;
    justify-content: space-evenly;
    padding-top: 1em;
@@ -59,12 +63,12 @@ section{
 }
 
 
-.cities {
+.jam-cities {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/London.jpg);
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Jamaica1small.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -74,10 +78,10 @@ section{
     padding-left: .5em;
     
 }
-.cities:hover {
+.jam-cities:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/London.jpg);
+    background: url(/images/Dolphin.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,12 +89,12 @@ section{
     
     
 }
-.landmarks {
+.jam-landmarks {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Buckingham.jpg);
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Kissingdolphin.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -101,22 +105,22 @@ section{
     
     
 }
-.landmarks:hover {
+.jam-landmarks:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Buckingham.jpg);
+    background: url(/images/museum.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
     
 }
-.citizens {
+.jam-citizens {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Famous.jpg);
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/cove.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -136,10 +140,10 @@ section{
     
     
 
-.citizens:hover {
+.jam-citizens:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Famous.jpg);
+    background: url(/images/Marleys.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -166,11 +170,11 @@ li {
     font-size: large;
 }
 
-#mainInformation {
+#jam-mainInformation {
     width: auto;
     height: auto;
-    background: url(/images/UK_FLAG.jpg);
-    background-size: fill;
+    background: url(/images/Kingston.jpg);
+    background-size: cover;
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
