@@ -1,8 +1,18 @@
+body {
+    font-family: 'Merienda', cursive;
+}
+
 nav {
-    background-color:black;
-    line-height: 10px;
-    height: 50px;
-    text-align: center;    
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 nav li {
@@ -69,9 +79,11 @@ section{
 }
 
 .cities {
-    max-width: 100%;
-    height: auto;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/London.jpg);
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Jamaica1small.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,7 +97,7 @@ section{
 .cities:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/London.jpg);
+    background: url(/images/Dolphin.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -93,9 +105,11 @@ section{
 }
 
 .landmarks {
-    max-width: 100%;
-    height: auto;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Buckingham.jpg);
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Kissingdolphin.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -109,7 +123,7 @@ section{
 .landmarks:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Buckingham.jpg);
+    background: url(/images/museum.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -118,9 +132,11 @@ section{
 }
 
 .citizens {
-    max-width: 100%;
-    height: auto;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Famous.jpg);
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/cove.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -134,7 +150,7 @@ section{
 .citizens:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Famous.jpg);
+    background: url(/images/Marleys.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -159,8 +175,8 @@ li {
 #mainInformation {
     width: auto;
     height: auto;
-    background: url(/images/UK_FLAG.jpg);
-    background-size: fill;
+    background: url(/images/coverPhoto.jpg);
+    background-size: cover;
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
