@@ -1,66 +1,4 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-nav {
-    background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
-    border: 2px solid black;
-}
-
-nav ul {
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-
-nav li {
-    display: inline-block; 
-    margin: 16px;
-        
-}
-
-a {
-    color: white;
-}
-a:hover {
-    color: red;
-}
-
-.countryImages {
-   max-width: 250px;
-   max-height: 150px;
-   border: 5px solid black;
-   
-   
-}
-
-
-#countryImages { 
-   display: flex;
-   justify-content: space-evenly;
-   padding-top: 1em;
-      
-}
-
-
-nav {
-    border-bottom: 2px solid black;
-}
-
-
-h1 {
-    border-top: 2px solid black;
-}
-
-
-section{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+@import "main.css";
 
 
 .cities {
@@ -68,8 +6,7 @@ section{
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Jamaica1small.jpg);
-    background-size: cover;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/eiffel_tower.jpg);    background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
@@ -81,7 +18,7 @@ section{
 .cities:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Dolphin.png);
+    background: url(/images/eiffel_tower.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -94,8 +31,7 @@ section{
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Kissingdolphin.jfif);
-    background-size: cover;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/ArcTriomphe.jpg);    background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
@@ -108,7 +44,7 @@ section{
 .landmarks:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/museum.jfif);
+    background: url(/images/ArcTriomphe.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -120,7 +56,7 @@ section{
     min-height: 250px;
     max-width: 650px;
     max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/cove.jfif);
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/napoleon.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -130,48 +66,26 @@ section{
     padding-left: .5em;
 }
  
-
+  
     
 
 .citizens:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Marleys.jfif);
+    background: url(/images/napoleon.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;
     
-    
-    
-    
-}
-
-
-h2 {
-    color: white;
-    font-size: 2em;
-    
-    
-}
-ul {
-    color: white;
-}
-li {
-    position: relative;
-    padding: 1.5em;
-    font-size: large;
 }
 
 #mainInformation {
     width: auto;
     height: auto;
-    background: url(/images/coverPhoto.jpg);
-    background-size: cover;
+    background: url(/images/franceFlag.jpg);
+    background-size: fill;
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
 } 
-    
-   
-
