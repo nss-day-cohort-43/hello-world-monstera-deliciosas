@@ -50,9 +50,7 @@ a:visited {
 .countryImages {
    max-width: 250px;
    max-height: 150px;
-   border-style: inset;
-   border-width: 10px;
-   box-shadow: 5px 5px 5px 5px black;      
+   border: 5px solid black;
 }
   
 #countryImages { 
@@ -180,8 +178,6 @@ footer {
     padding-top: 2em;
     font-size: large;
     font-weight: bold;
-    background: black;
-    color: white;
     margin-top: 1em;   
 }   
 
