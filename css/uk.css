@@ -116,21 +116,6 @@ section{
     align-items : center;  
 }
 
-h2 {
-    color: white;
-    font-size: 2em;    
-}
-
-ul {
-    color: white;
-}
-
-li {
-    position: relative;
-    padding: 1.5em;
-    font-size: large;   
-}
-
 #mainInformation {
     width: auto;
     height: auto;
