@@ -54,17 +54,6 @@ a:visited {
    border-width: 10px;
    box-shadow: 5px 5px 5px 5px black;      
 }
-
-h1 {
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    animation: my 10s infinite;
-    animation-direction: alternate;
-    background-color:black ;
-    width: fit-content;
-    box-shadow: 10px 10px 8px 3px black;
-}
   
 #countryImages { 
    display: flex;
