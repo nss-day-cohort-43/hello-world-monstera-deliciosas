@@ -3,15 +3,15 @@ body {
 }
 
 nav {
-    background-color: cornflowerblue;
+    background-color: black;
     display: flex;
     flex-wrap: nowrap;
     border: 2px solid black;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     
 }
 
@@ -29,7 +29,7 @@ a:hover {
     color: red;
 }
 
-.jam-countryImages {
+.countryImages {
    max-width: 250px;
    max-height: 150px;
    border: 5px solid black;
@@ -38,7 +38,7 @@ a:hover {
 }
 
 
-#jam-countryImages { 
+#countryImages { 
    display: flex;
    justify-content: space-evenly;
    padding-top: 1em;
@@ -63,7 +63,7 @@ section{
 }
 
 
-.jam-cities {
+.cities {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
@@ -78,7 +78,7 @@ section{
     padding-left: .5em;
     
 }
-.jam-cities:hover {
+.cities:hover {
     max-width: 100%;
     max-height: auto;
     background: url(/images/Dolphin.png);
@@ -89,7 +89,7 @@ section{
     
     
 }
-.jam-landmarks {
+.landmarks {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
@@ -105,7 +105,7 @@ section{
     
     
 }
-.jam-landmarks:hover {
+.landmarks:hover {
     max-width: 100%;
     max-height: auto;
     background: url(/images/museum.jfif);
@@ -115,7 +115,7 @@ section{
     align-items : center;
     
 }
-.jam-citizens {
+.citizens {
     min-width: 350px;
     min-height: 250px;
     max-width: 650px;
@@ -140,7 +140,7 @@ section{
     
     
 
-.jam-citizens:hover {
+.citizens:hover {
     max-width: 100%;
     max-height: auto;
     background: url(/images/Marleys.jfif);
@@ -170,10 +170,10 @@ li {
     font-size: large;
 }
 
-#jam-mainInformation {
+#mainInformation {
     width: auto;
     height: auto;
-    background: url(/images/Kingston.jpg);
+    background: url(/images/coverPhoto.jpg);
     background-size: cover;
     border: 2px solid black;
     display: flex;
