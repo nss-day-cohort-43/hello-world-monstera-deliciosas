@@ -1,0 +1,91 @@
+@import "main.css";
+
+
+.cities {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/eiffel_tower.jpg);    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    
+}
+.cities:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/eiffel_tower.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+    
+}
+.landmarks {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/ArcTriomphe.jpg);    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+    
+    
+}
+.landmarks:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/ArcTriomphe.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+}
+.citizens {
+    min-width: 350px;
+    min-height: 250px;
+    max-width: 650px;
+    max-height: 550px;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/napoleon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    border: thick solid black;
+    margin: 1em;
+    padding-left: .5em;
+}
+ 
+  
+    
+
+.citizens:hover {
+    max-width: 100%;
+    max-height: auto;
+    background: url(/images/napoleon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items : center;
+    
+}
+
+#mainInformation {
+    width: auto;
+    height: auto;
+    background: url(/images/franceFlag.jpg);
+    background-size: fill;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+} 
