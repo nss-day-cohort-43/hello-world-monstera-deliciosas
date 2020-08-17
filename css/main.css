@@ -1,41 +1,32 @@
 nav {
     background-color:black;
-    display: flex;
-    flex-wrap: nowrap;    
+    line-height: 10px;
+    height: 50px;
+    text-align: center;    
 }
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    
-}
-
 
 nav li {
     display: inline-block; 
-    margin: 8px;
-    
-   
 }
 
 a {
     color: white;
     font-weight: bolder;
     text-transform: uppercase;
-    
-}
-a:hover {
-    color: red;
+    ;
 }
 
-h1 {
-    background-color: black;
-    width: fit-content;
-    
+a:hover {
+    color: black;
+    background-color:white;
+}
+
+a:visited {
+     color: red; 
 }
 
 .united {
-    color: red;
+    color: red;   
 }
 
 .king {
@@ -49,42 +40,37 @@ h1 {
 .countryImages {
    max-width: 250px;
    max-height: 150px;
-   border: 5px solid black;
-   
-   
+   border-style: inset;
+   border-width: 10px;
+   box-shadow: 5px 5px 5px 5px black;      
 }
 
-
+h1 {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    animation: my 10s infinite;
+    animation-direction: alternate;
+    background-color:black ;
+    width: fit-content;
+    box-shadow: 10px 10px 8px 3px black;
+}
+  
 #countryImages { 
    display: flex;
    justify-content: space-evenly;
    padding-top: 1em;
-      
+   
 }
-
-
-nav {
-    border-bottom: 2px solid black;
-}
-
-
-h1 {
-    border-top: 2px solid black;
-}
-
 
 section{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
-
 .cities {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
+    max-width: 100%;
+    height: auto;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/London.jpg);
     background-size: cover;
     background-position: center;
@@ -93,8 +79,9 @@ section{
     border: thick solid black;
     margin: 1em;
     padding-left: .5em;
-    
+    box-shadow: 10px 10px 8px 3px black;
 }
+
 .cities:hover {
     max-width: 100%;
     max-height: auto;
@@ -103,14 +90,11 @@ section{
     background-position: center;
     display: flex;
     align-items : center;
-    
-    
 }
+
 .landmarks {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
+    max-width: 100%;
+    height: auto;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Buckingham.jpg);
     background-size: cover;
     background-position: center;
@@ -119,9 +103,9 @@ section{
     border: thick solid black;
     margin: 1em;
     padding-left: .5em;
-    
-    
+    box-shadow: 10px 10px 8px 3px black;
 }
+
 .landmarks:hover {
     max-width: 100%;
     max-height: auto;
@@ -132,11 +116,10 @@ section{
     align-items : center;
     
 }
+
 .citizens {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
+    max-width: 100%;
+    height: auto;
     background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Famous.jpg);
     background-size: cover;
     background-position: center;
@@ -145,17 +128,8 @@ section{
     border: thick solid black;
     margin: 1em;
     padding-left: .5em;
+    box-shadow: 10px 10px 8px 3px black;
 }
- 
-
-
-
-
-
-    
-    
-    
-    
 
 .citizens:hover {
     max-width: 100%;
@@ -164,27 +138,22 @@ section{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items : center;
-    
-    
-    
-    
+    align-items : center;  
 }
-
 
 h2 {
     color: white;
-    font-size: 2em;
-    
-    
+    font-size: 2em;    
 }
+
 ul {
     color: white;
 }
+
 li {
     position: relative;
     padding: 1.5em;
-    font-size: large;
+    font-size: large;   
 }
 
 #mainInformation {
@@ -205,6 +174,6 @@ footer {
     font-weight: bold;
     background: black;
     color: white;
-    margin-top: 1em;
+    margin-top: 1em;   
 }   
 
