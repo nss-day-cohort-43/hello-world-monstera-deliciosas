@@ -1,39 +1,10 @@
+@import "main.css";
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    background-color: black;
-    display: flex;
-    flex-wrap: nowrap;
-    border: 2px solid black;
-}
 
-nav ul {
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-nav li {
-    display: inline-block; 
-}
-
-a {
-    color: white;
-    font-weight: bolder;
-    text-transform: uppercase;
-    ;
-}
-
-a:hover {
-    color: black;
-    background-color:white;
-}
-
-a:visited {
-     color: red; 
-}
 
 .united {
     color: red;   
@@ -54,6 +25,17 @@ a:visited {
    border-width: 10px;
    box-shadow: 5px 5px 5px 5px black;      
 }
+
+h1 {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    animation: my 10s infinite;
+    animation-direction: alternate;
+    background-color:black ;
+    width: fit-content;
+    box-shadow: 10px 10px 8px 3px black;
+}
   
 #countryImages { 
    display: flex;
@@ -68,11 +50,9 @@ section{
 }
 
 .cities {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Jamaica1small.jpg);
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/London.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -86,7 +66,7 @@ section{
 .cities:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Dolphin.png);
+    background: url(/images/London.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -94,11 +74,9 @@ section{
 }
 
 .landmarks {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Kissingdolphin.jfif);
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Buckingham.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -112,7 +90,7 @@ section{
 .landmarks:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/museum.jfif);
+    background: url(/images/Buckingham.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -121,11 +99,9 @@ section{
 }
 
 .citizens {
-    min-width: 350px;
-    min-height: 250px;
-    max-width: 650px;
-    max-height: 550px;
-    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/cove.jfif);
+    max-width: 100%;
+    height: auto;
+    background: linear-Gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/Famous.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -135,53 +111,23 @@ section{
     padding-left: .5em;
     box-shadow: 10px 10px 8px 3px black;
 }
- 
-
-    
 
 .citizens:hover {
     max-width: 100%;
     max-height: auto;
-    background: url(/images/Marleys.jfif);
+    background: url(/images/Famous.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items : center;  
 }
 
-h2 {
-    color: white;
-    font-size: 2em;    
-}
-
-ul {
-    color: white;
-}
-
-li {
-    position: relative;
-    padding: 1.5em;
-    font-size: large;   
-}
-
 #mainInformation {
     width: auto;
     height: auto;
-    background: url(/images/coverPhoto.jpg);
-    background-size: cover;
+    background: url(/images/UK_FLAG.jpg);
+    background-size: fill;
     border: 2px solid black;
     display: flex;
     justify-content: space-around;
 } 
-    
-footer {
-    width: fit-content;
-    height: fit-content;
-    padding-top: 2em;
-    font-size: large;
-    font-weight: bold;
-    background: black;
-    color: white;
-    margin-top: 1em;   
-}   
-
